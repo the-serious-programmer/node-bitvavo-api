@@ -1,6 +1,6 @@
 {
-    "name": "bitvavo",
-    "version": "1.2.0",
+    "name": "bitvavo-fork",
+    "version": "1.2.2",
     "description": "This is the NodeJS wrapper for the Bitvavo API",
     "main": "node-bitvavo-api.js",
     "directories": {
@@ -13,7 +13,7 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/bitvavo/node-bitvavo-api.git"
+      "url": "git+https://github.com/the-serious-programmer/node-bitvavo-api.git"
     },
     "keywords": [
       "Node",

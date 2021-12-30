@@ -177,6 +177,8 @@ let api = function Bitvavo () {
       } catch (error) {
         errorToConsole('We are trying to emit an error. But you forgot to set the emitter\'s on error, consult getting started with websockets in the readme.')
       }
+    } else if ('unsubscribed' in response) {
+      console.log('unsubscribed: ' + JSON.stringify(response));
     } else if ('authenticated' in response) {
       this.authenticated = true
     } else if ('action' in response) {
