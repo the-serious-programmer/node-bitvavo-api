@@ -16,7 +16,7 @@ let api = function Bitvavo () {
   let rateLimitRemaining = 1000
   let rateLimitReset = 0
 
-  let debugging = false
+  let debugging = true
   let startedSocket = false
   let socketDidNotConnect = false
   let emitterReturned = false
